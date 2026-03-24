@@ -1,8 +1,7 @@
-package com.example.iflofftob.service;
+package com.example.iflofftob.crawler;
 
-import com.example.iflofftob.domain.LotteryDraw;
-import com.example.iflofftob.dto.Lt645DrawApiResponse;
-import com.example.iflofftob.repository.LotteryDrawRepository;
+import com.example.iflofftob.draw.LotteryDraw;
+import com.example.iflofftob.draw.LotteryDrawRepository;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

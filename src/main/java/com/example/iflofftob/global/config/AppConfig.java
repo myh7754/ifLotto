@@ -1,4 +1,4 @@
-package com.example.iflofftob.config;
+package com.example.iflofftob.global.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

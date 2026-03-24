@@ -1,4 +1,4 @@
-package com.example.iflofftob.dto;
+package com.example.iflofftob.crawler;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

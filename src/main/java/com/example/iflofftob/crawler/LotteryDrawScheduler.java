@@ -1,6 +1,5 @@
-package com.example.iflofftob.scheduler;
+package com.example.iflofftob.crawler;
 
-import com.example.iflofftob.service.LotteryDrawCrawlerService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

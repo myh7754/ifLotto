@@ -1,4 +1,4 @@
-package com.example.iflofftob.domain;
+package com.example.iflofftob.draw;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

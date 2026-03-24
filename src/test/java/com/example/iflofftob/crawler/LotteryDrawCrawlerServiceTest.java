@@ -1,7 +1,7 @@
-package com.example.iflofftob.service;
+package com.example.iflofftob.crawler;
 
-import com.example.iflofftob.dto.Lt645DrawApiResponse.Item;
-import com.example.iflofftob.repository.LotteryDrawRepository;
+import com.example.iflofftob.crawler.Lt645DrawApiResponse.Item;
+import com.example.iflofftob.draw.LotteryDrawRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,6 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * 실제 RestTemplate을 사용하여 신규 동행복권 API 연결 및 응답 파싱을 검증한다.
  * Repository는 Mock으로 처리하여 DB 없이도 실행 가능하다.
  */
+
 @ExtendWith(MockitoExtension.class)
 class LotteryDrawCrawlerServiceTest {
 
